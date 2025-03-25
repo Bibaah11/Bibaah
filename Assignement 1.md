@@ -510,3 +510,9 @@ Bien entendu, pour pouvoir utiliser `zip()`, il faut que les listes soient de mÃ
 1. [Argmax](ex4.1)
 2. [Intersection de listes](ex4.2)
 3. [Union de listes](ex4.3)
+def verifier(l) :
+  pour i dans la plage(len(l)-1) :
+    si l[i]>l[i+1] :
+      renvoie False
+  renvoie True
+verifier([0, 5, 8, 8, 9])
